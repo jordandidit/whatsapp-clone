@@ -1,0 +1,79 @@
+body {
+	width: 100%;
+	height: auto;
+	font-family: Helvetica;
+	font-size: 14px;
+	color: #50585c;
+}
+
+p {
+	margin: 0;
+}
+
+.cursor {
+	cursor: pointer;
+}
+
+.noborder {
+	border: none;
+}
+
+.bg-ct-white {
+	background: #ffffff;
+}
+
+.bg-ct-grey {
+	background: #ededed;
+}
+
+.bg-ct-grey-1 {
+	background: #e5dcd5;
+}
+
+.bg-ct-grey-2 {
+	background: #f0f0f0;
+}
+
+.bg-ct-grey-3 {
+	background: #ebebeb;
+}
+
+.bg-ct-yellow {
+	background: #dbf8c6;
+}
+
+.color-ct-grey {
+	color: #50585c;
+}
+
+.color-ct-grey-1 {
+	color: #8c8c8c;
+}
+
+.color-ct-grey-2 {
+	color: #666666;
+}
+
+.btn,
+btn:hover,
+.btn:active,
+.btn:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+.form-control,
+.form-control:hover,
+.form-control:active,
+.form-control:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+.dropdown button::after {
+	display: none;
+}
+
+.fit-cover {
+	object-fit: cover;
+}
